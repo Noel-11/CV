@@ -1,66 +1,68 @@
-body{
+body {
     font: 100% Verdana;
     margin: 20px;
     line-height: 26px;
 }
 
-.container{
+.container {
     min-width: 900px;
     position: relative;
     overflow: auto;
 }
 
-#banner{
+#banner {
     background-image: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
     background-color: lightgreen;
     padding: 15px;
 }
 
-footer{
+footer {
     text-align: center;
     padding: 10px;
     font-size: 70%;
-    line-height:14px;
+    line-height: 14px;
 }
 
 #menulist {
     padding: 0px;
     position: relative;
     overflow: auto;
+    color: black;
 }
 
-#menulist li{
-    width:165px;
-    float: left;
-    background-color: lightblue;
-    list-style-type: none;
-    margin: 4px;
-    padding:2px;
-    text-align: center;
-    cursor: pointer;
-}
+    #menulist li {
+        width: 165px;
+        float: left;
+        background-color: lightblue;
+        list-style-type: none;
+        margin: 4px;
+        padding: 2px;
+        text-align: center;
+        cursor: pointer;
+        color: black;
+    }
 
-#menulist li a{
-    color: wheat;
-    text-decoration: none;
-}
+        #menulist li a {
+            color: black;
+            text-decoration: none;
+        }
 
-#menulist li:hover {
-    background-color: black;
-}
+        #menulist li:hover {
+            background-color: black;
+        }
 
 
 h1, h2, h3 {
     color: rgb(17, 186, 17);
 }
 
-#servicelist{
-   padding: 0;
-   position: relative;
-   overflow: auto;
+#servicelist {
+    padding: 0;
+    position: relative;
+    overflow: auto;
 }
 
-.serviceitem{
+.serviceitem {
     width: 30%;
     float: left;
     background-color: rgb(127, 122, 122);
@@ -72,7 +74,7 @@ h1, h2, h3 {
     height: 250px;
 }
 
-#resumelist{
+#resumelist {
     padding: 0;
     position: relative;
     overflow: auto;
@@ -87,21 +89,21 @@ h1, h2, h3 {
     margin: 4px;
 }
 
-.section-heading{
+.section-heading {
     margin: 0 auto;
     width: 350px;
     /* outline: dashed 1px black; */
 }
 
-.section-heading h2{
-    text-align: center;
-}
+    .section-heading h2 {
+        text-align: center;
+    }
 
-#backtotop{
+#backtotop {
     text-decoration: none;
     position: fixed;
     bottom: 20px;
-    right:30px;
+    right: 30px;
     z-index: 99;
     border: none;
     outline: none;
@@ -111,12 +113,8 @@ h1, h2, h3 {
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
-
 }
 
-#backtotop:hover{
-    background-color: black;
-}
-
-
-
+    #backtotop:hover {
+        background-color: black;
+    }
